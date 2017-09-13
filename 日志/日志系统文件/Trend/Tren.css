@@ -1,0 +1,15 @@
+.trendTitle{
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #cae6fe;
+}
+.trendSearch{
+  height: 60px;
+  padding-top: 15px;
+}
+.trendSearch label{
+  margin:0 5px;
+}
+#trendDay,#trendMonth{
+  display: inline-block;
+}

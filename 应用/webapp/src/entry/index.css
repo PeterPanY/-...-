@@ -1,0 +1,63 @@
+/* 全局样式 */
+.ant-input-wrapper .ant-input{
+  position: static;
+}
+.ant-modal-content .ant-modal-footer{
+  text-align: center;
+}
+.ant-modal-content .ant-modal-footer button + button{
+  margin-left: 20px;
+}
+.ant-checkbox-group .ant-checkbox-wrapper + .ant-checkbox-wrapper{
+  margin-left: 0;
+}
+.ant-form-horizontal .ant-form-item {
+  margin-left: 70px !important;
+  margin-right: -70px !important;
+}
+/* 顶部样式 */
+#Boss_title{
+  background:#eff3ff ;
+  height: 50px;
+  padding:8px 20px;
+  overflow: hidden;
+}
+#Boss_title .lf{
+  width: 124px;
+  height: 35px;
+  float:left;
+}
+#Boss_title .rt{
+  float:right;
+  padding: 10px;
+}
+/* 左侧导航固定宽度 */
+#leftMenu {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  overflow-y: auto;
+}
+#leftMenu>ul>li a {
+  width: 185px;
+  margin-left: -50px;
+  padding-left: 50px;
+}
+/* 右侧宽度自适应 */
+#rightWrap {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  padding: 0 10px;
+  top: 50px;
+  left: 200px;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+}

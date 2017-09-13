@@ -1,0 +1,168 @@
+.dataTitle {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #cae6fe;
+}
+
+.dataSearch {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.dataSearch label {
+  margin: 0 5px;
+}
+
+.dataSearchTable tbody tr:nth-of-type(even) {
+  background: #f1f8fd;
+}
+
+/*详情css*/
+.detailsFl {
+  margin: 10px 0;
+}
+
+.detailsFl:after, ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.detailsFl li {
+  float: left;
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+.detailsFl li label {
+  width: 88px;
+  text-align: right;
+  display: inline-block;
+}
+
+.detailsFl li span {
+  margin-left: 5px
+}
+
+.info {
+  margin-bottom: 15px;
+}
+
+.info-title {
+  margin-top: 5px;
+}
+
+.info-content {
+  margin: 10px 20px;
+}
+
+.info-content ul li {
+  float: left;
+  width: 50%;
+}
+
+/*详情页面图片样式*/
+.img-custom {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.img-custom img {
+  display: inline-block;
+  /*height: 200px;*/
+}
+
+.img-custom a {
+  margin-left: 170px;
+}
+
+/*文件详情样式*/
+.anticon-copy:before {
+  font-size: 80px;
+}
+
+.fileData {
+  display: inline-block;
+  width: 160px;
+  min-height: 120px;
+  text-align: center;
+}
+
+.fileData a {
+  text-align: right;
+}
+
+/* 配合样式可以做出上传按钮和示例效果 */
+.ant-upload-select-picture-card i {
+  font-size: 28px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.upload-example {
+  position: relative;
+  display: inline-block;
+  height: 96px;
+  width: 96px;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  vertical-align: top;
+}
+
+.upload-example img {
+  height: 78px;
+  width: 78px;
+}
+
+.upload-example:before {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  content: ' ';
+  width: 78px;
+  height: 24px;
+  background-color: #808080;
+  opacity: .8;
+}
+
+.upload-example span {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 78px;
+  height: 24px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+}
+
+/*卡片样式*/
+.CardTitle {
+  padding-top: 30px;
+  padding-left: 33%;
+}
+
+.CardTitle li {
+  border-bottom: 1px dashed rgba(47, 47, 47, 0.7);
+}
+
+#leftLineStack {
+  width: 90%;
+  height: 400px;
+  border: 1px solid #d9d9d9;
+  margin: 30px 0 30px;
+  padding: 10px;
+}
+
+#leftLineStack {
+  float: left;
+  margin-left: 5%;
+}

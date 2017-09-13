@@ -1,0 +1,15 @@
+.statisticTitle{
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #cae6fe;
+}
+.statisticSearch{
+  height: 60px;
+  padding-top: 15px;
+}
+.statisticSearch label{
+  margin:0 5px;
+}
+.statisticSearchTable tbody tr:nth-of-type(even){
+  background: #f1f8fd;
+}
